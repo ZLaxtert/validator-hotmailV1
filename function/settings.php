@@ -1,7 +1,7 @@
 <?php
 /*==========> INFO 
  * CODE     : BY ZLAXTERT
- * SCRIPT   : MICROSOFT VALIDATOR
+ * SCRIPT   : HOTMAIL || OUTLOOK || MSN || LIVE || VALIDATOR
  * VERSION  : V1
  * TELEGRAM : t.me/zlaxtert
  * BY       : DARKXCODE
