@@ -115,7 +115,7 @@ $rollingCurl->setCallback(function (\RollingCurl\Request $request, \RollingCurl\
 
     //============> RESPONSE
 
-    if($device == ""){
+    if($device == "Device Unknown!"){
         $template_ress = "";
         $template_save = "$list";
     }else {
