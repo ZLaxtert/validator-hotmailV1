@@ -37,11 +37,11 @@ $lists = array_unique(explode("\n", str_replace("\r", "", file_get_contents($lis
 //=========> THREADS
 
 reqemail:
-echo "$WH [$GR+$WH] Threads ($YL Max 30 $WH) ($YL Recommended 10-30 $WH) $GR>> $BL";
+echo "$WH [$GR+$WH] Threads ($YL Max 15 $WH) ($YL Recommended 2-10 $WH) $GR>> $BL";
 $reqemail = trim(fgets(STDIN));
-$reqemail = (empty($reqemail) || !is_numeric($reqemail) || $reqemail <= 0) ? 15 : $reqemail;
-if ($reqemail > 30) {
-    echo PHP_EOL . PHP_EOL . "$WH [$YL!$WH] $RD MAX 30$WH [$YL!$WH]$DEF" . PHP_EOL . PHP_EOL;
+$reqemail = (empty($reqemail) || !is_numeric($reqemail) || $reqemail <= 0) ? 7 : $reqemail;
+if ($reqemail > 15) {
+    echo PHP_EOL . PHP_EOL . "$WH [$YL!$WH] $RD MAX 15$WH [$YL!$WH]$DEF" . PHP_EOL . PHP_EOL;
     goto reqemail;
 }
 
